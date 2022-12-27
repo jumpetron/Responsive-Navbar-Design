@@ -40,14 +40,14 @@ ul li a.active {
     padding: 0 24px;
 }
 
-.nav-menu {
+.nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 60px;
 }
 
-.nav-branding {
+.logo {
     font-size: 2rem;
 }
 
@@ -99,7 +99,7 @@ ul li a.active {
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .nav-menu {
+    .nav-list {
         position: fixed;
         left: -100%;
         top: 70px;
@@ -116,7 +116,7 @@ ul li a.active {
 
     }
 
-    .nav-menu.active {
+    .nav-list.active {
         left: 0;
     }
 }
