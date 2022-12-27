@@ -7,12 +7,9 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-:root {
-    --bg: #1EE1A1;
-}
 
 header {
-    background-color: var(--bg);
+    background-color: #1EE1A1;
 }
 
 li {
@@ -42,7 +39,6 @@ ul li a.active {
 
 .nav-list {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     gap: 60px;
 }
@@ -105,7 +101,7 @@ ul li a.active {
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #262626;
+        background-color: #1EE1A1;
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -120,6 +116,10 @@ ul li a.active {
         left: 0;
     }
 }
+
+
+
+
 
 
 
