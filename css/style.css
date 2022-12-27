@@ -40,7 +40,7 @@ ul li a.active {
 .nav-list {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 45px;
 }
 
 .logo {
